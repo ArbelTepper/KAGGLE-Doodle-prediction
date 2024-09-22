@@ -15,7 +15,7 @@ For Example:
 
 ## Starting at the End
 
-The Convolutional Neural Network did not perform well. In fact, its performance was no better than making random guesses.
+The Convolutional Neural Network I trained did not perform well. In fact, its performance was no better than making random guesses.
 
 That being said, I learned a lot during this project, which leads me to...
 
