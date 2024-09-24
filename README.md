@@ -6,7 +6,9 @@ The goal was to create a Machine Learning model that would predict well the subj
 
 ## The Data
 
-The 5GB dataset of doodles contains over 1M 255x255 PNGs of doodles with 380 different labels originating from 198 countries. </br> Even doodles within the same category vary greatly.
+The 5GB dataset of doodles contains over 1M 255x255 PNGs of doodles with 380 different labels originating from 198 countries.
+</br>
+Doodles within the same category vary greatly. It might be difficult for a model to learn such a relationship.
 
 For Example:
 
@@ -26,7 +28,7 @@ That being said, I learned a lot during this project, which leads me to...
 * Working with GPUs:
   - Transferring my model to the GPU.
   - Distributing the load between multiple GPUs.
-  - Constructing ML models while considering hardware limitations.
+  - Constructing ML models while considering hardware limitations (2 GPU T4 - 15GB each).
 * Implementing a CNN in PyTorch from scratch.
 
 ## The Strategy I Took
